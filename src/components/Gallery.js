@@ -1,15 +1,14 @@
 import React from 'react';
 import { useState } from 'react';
-import backbraids from '../images/large-straight-back-braids.jpg';
-import braidedponytail from '../images/braided-ponytail.png';
-import knotlessplatts from '../images/knotlessplatts.png';
-import knotlessplatts2 from '../images/knotlessplatts2.png';
-import smalllemonade from '../images/small-lemonade-braids.png';
-import twofeedins from '../images/two-feedins.jpg';
-import frontplatts from '../images/knotlessplatts2.png';
-import straightbackfeedins from '../images/straight-back-feedins-with-designs2.png';
-import straightbackfeedins2 from '../images/straight-back-feedins.png';
-import braidsfrontplattback from '../images/front-platts2.png';
+import backbraids from '../../imagecompressor/large-straight-back-braids-min.jpg';
+import braidedponytail from '../../imagecompressor/braided-ponytail-min.png';
+import knotlessplatts from '../../imagecompressor/knotlessplatts-min.png';
+import knotlessplatts2 from '../../imagecompressor/knotlessplatts2-min.png';
+import smalllemonade from '../../imagecompressor/small-lemonade-braids-min.png';
+import twofeedins from '../../imagecompressor/two-feedins-min.jpg';
+import straightbackfeedins from '../../imagecompressor/straight-back-feedins-with-designs2-min.png';
+import straightbackfeedins2 from '../../imagecompressor/straight-back-feedins-min.png';
+import braidsfrontplattback from '../../imagecompressor/front-platts2-min.png';
 
 const Gallery = () => {
   const [index, setIndex] = useState(1);
