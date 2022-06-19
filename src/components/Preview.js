@@ -5,6 +5,11 @@ import knotlessplatts from '../imagecompressor/knotlessplatts-min.png';
 import knotlessplatts2 from '../imagecompressor/knotlessplatts2-min.png';
 import smalllemonade from '../imagecompressor/small-lemonade-braids-min.png';
 import twofeedins from '../imagecompressor/two-feedins-min.jpg';
+import straightbackfeedins from '../imagecompressor/straight-back-feedins-with-designs2-min.png';
+import straightbackfeedins2 from '../imagecompressor/straight-back-feedins-min.png';
+import braidsfrontplattback from '../imagecompressor/front-platts2-min.png';
+import defaultprofile from '../images/defaultcover.png';
+import placeholder from '../images/placeholder-image-nlhd.png';
 
 const Preview = ({ title }) => {
   let sourceURL;
