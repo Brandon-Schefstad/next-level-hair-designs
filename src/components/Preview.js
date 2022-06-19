@@ -1,10 +1,10 @@
 import React from 'react';
-import backbraids from '../../imagecompressor/large-straight-back-braids-min.jpg';
-import braidedponytail from '../../imagecompressor/braided-ponytail-min.png';
-import knotlessplatts from '../../imagecompressor/knotlessplatts-min.png';
-import knotlessplatts2 from '../../imagecompressor/knotlessplatts2-min.png';
-import smalllemonade from '../../imagecompressor/small-lemonade-braids-min.png';
-import twofeedins from '../../imagecompressor/two-feedins-min.jpg';
+import backbraids from '../imagecompressor/large-straight-back-braids-min.jpg';
+import braidedponytail from '../imagecompressor/braided-ponytail-min.png';
+import knotlessplatts from '../imagecompressor/knotlessplatts-min.png';
+import knotlessplatts2 from '../imagecompressor/knotlessplatts2-min.png';
+import smalllemonade from '../imagecompressor/small-lemonade-braids-min.png';
+import twofeedins from '../imagecompressor/two-feedins-min.jpg';
 
 const Preview = ({ title }) => {
   let sourceURL;
