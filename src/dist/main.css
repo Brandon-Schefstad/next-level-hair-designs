@@ -1,0 +1,517 @@
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.header__wrapper {
+  background-color: hsl(244deg, 28%, 23%);
+  padding: 4rem;
+  justify-items: center;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  box-shadow: 0px 0px 4px #fde5e5;
+  z-index: 0;
+  position: absolute;
+  top: 75px;
+  width: 13rem;
+}
+.logo:hover {
+  box-shadow: 0px 0px 8px hsl(11deg, 93%, 55%);
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: left;
+  max-width: 200px;
+  margin-top: 6rem;
+}
+
+.header__text__wrapper {
+  flex-direction: column;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.header__wrapper > div {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.header__cta {
+  background-color: hsl(11deg, 93%, 55%);
+  font-weight: 700;
+  border: 3px solid hsl(11deg, 93%, 55%);
+  color: #fff;
+  margin: auto;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.header__cta:hover {
+  background-color: hsl(11deg, 93%, 25%);
+  border: 3px solid hsl(11deg, 93%, 25%);
+}
+
+.header__image {
+  opacity: 70%;
+  width: 90%;
+  justify-self: center;
+}
+
+.pricing-wrapper {
+  font-family: nunito;
+  color: #5243ad;
+  position: relative;
+  background-color: white;
+  border: 2px solid hsl(244deg, 28%, 23%);
+  display: grid;
+  grid-template-rows: 43% 50%;
+  gap: 0rem;
+  height: 593.5px;
+}
+
+.pricing {
+  width: 100%;
+  text-align: center;
+}
+
+.pricing__title,
+h1.policies__title {
+  font-size: 2.2rem;
+  padding-inline: 0.4rem;
+  text-decoration: underline;
+  grid-column: 1/span 5;
+  font-weight: 701;
+}
+
+.pricing__straightback {
+  font-size: 2rem;
+}
+
+.pricing__list {
+  list-style: none;
+  padding-inline: 0.5rem;
+  font-size: 0.8rem;
+  flex-direction: column;
+  grid-column: 1/span 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-inline: 2rem;
+}
+
+.price {
+  text-align: center;
+  margin-top: 0%;
+}
+
+.style {
+  text-align: center;
+}
+
+.decoration {
+  position: relative;
+}
+.decoration::after {
+  content: " ";
+  background-color: hsl(11deg, 93%, 55%);
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+.pricing__listitems__container {
+  grid-template-columns: 1fr 1fr 1fr;
+  letter-spacing: 0.25ch;
+}
+
+.menuWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding-inline: 1rem;
+}
+
+.pricing__change-price {
+  color: white;
+  font-size: 2rem;
+  border-radius: 5rem;
+  background-color: hsl(244deg, 28%, 23%);
+}
+.pricing__change-price:hover {
+  background-color: hsl(244deg, 28%, 75%);
+  color: hsl(244deg, 28%, 23%);
+}
+
+img.preview {
+  margin: auto;
+  margin-top: 1rem;
+  min-width: 50px;
+  border-radius: 30rem;
+  box-shadow: 0px -4px 4px hsla(11deg, 93%, 55%, 0.7);
+  border: 2px solid hsl(11deg, 93%, 55%);
+  margin-bottom: 1rem;
+  max-height: 240px;
+}
+
+.preview__wrapper {
+  max-height: 275px;
+}
+
+.sizeMarker {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.pricing__grid {
+  background-color: white;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 1rem;
+  height: 215px;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
+  grid-column: 1/span 5;
+}
+
+.default__pricing {
+  color: #5243ad;
+}
+
+.pricing__grid__item {
+  border: 2px solid blACK;
+  height: 3.7rem;
+  text-align: center;
+  margin-block: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15rem;
+}
+
+.dark-bg {
+  background-color: #5243ad;
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.pricing__caveat {
+  grid-column: 1/span 4;
+  color: black;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.policies__wrapper {
+  background-color: hsl(273deg, 34%, 83%);
+  display: grid;
+  right: 0px;
+  padding: 0.5rem;
+  border: 2px solid hsl(244deg, 28%, 23%);
+  grid-template-rows: -0.8fr 1fr;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h1.policies__title {
+  color: #5243ad;
+  border: none;
+  font-family: Nunito, sans-serif;
+  grid-column: 1;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.policies__list {
+  font-family: nunito, sans-serif;
+  font-size: 1.1rem;
+}
+
+.policies__text--emphasized {
+  color: blue;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+  section.section2 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0rem;
+    gap: 1rem;
+  }
+
+  .header__wrapper {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 8rem;
+    padding-top: 3rem;
+    color: black;
+  }
+
+  .header__wrapper > div {
+    padding: 1rem;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .title {
+    margin-top: 0rem;
+  }
+
+  .logo__container {
+    display: flex;
+    justify-content: right;
+    z-index: 3;
+  }
+
+  .logo {
+    width: 100%;
+    max-width: 250px;
+    position: static;
+  }
+
+  section.header__info__wrapper {
+    grid-template-rows: 2fr 1fr 0.2fr;
+    gap: 0.5rem;
+    padding-inline: 1.2rem;
+  }
+
+  section.images__wrapper {
+    align-items: center;
+    justify-items: center;
+    gap: 0rem;
+  }
+
+  .header__image {
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .header__cta {
+    padding: 0.5rem;
+    margin-block: auto;
+  }
+
+  img.preview {
+    width: 50%;
+  }
+
+  .pricing__title {
+    font-size: 2rem;
+  }
+
+  section.pricing__grid__item {
+    font-size: 1.4rem;
+  }
+}
+.iframe {
+  margin: auto;
+  width: 100%;
+  height: 1000px;
+}
+
+.iframe__wrapper {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cta--option1 {
+  color: hsl(11deg, 93%, 55%);
+  background-color: white;
+  border: 3px solid hsla(11deg, 93%, 55%, 0.7);
+}
+.cta--option1:hover {
+  background-color: hsl(11deg, 93%, 55%);
+  color: white;
+  border: 3px solid hsl(11deg, 93%, 55%);
+}
+
+.gallery__wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  border: 2px solid hsl(244deg, 28%, 23%);
+  padding: 2rem;
+  background-color: hsl(244deg, 28%, 23%);
+}
+
+.gallery__text {
+  color: white;
+  position: absolute;
+  font-size: 0.7rem;
+  bottom: 40px;
+  margin: auto;
+  display: block;
+  background-color: hsla(0deg, 0%, 0%, 0.5);
+  z-index: 2;
+  padding: 0.5rem;
+  letter-spacing: 0.25ch;
+  text-align: left;
+}
+.gallery__text::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: hsl(11deg, 93%, 55%);
+  opacity: 60%;
+  z-index: -1;
+  left: 0%;
+  position: absolute;
+}
+
+.image__wrapper {
+  text-align: center;
+  margin: auto;
+  height: 300px;
+  border: 3px solid white;
+  grid-column: 1/span 4;
+  height: 100%;
+  position: relative;
+}
+
+.gallery__image {
+  height: 300px;
+}
+
+.prev {
+  grid-row: 3;
+}
+
+.next {
+  grid-column: 4;
+}
+
+.gallery__title {
+  grid-column: 1/span 4;
+  margin-top: 1rem;
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  height: 96px;
+  background-color: hsl(11deg, 93%, 55%);
+  border-radius: 5% 50% 5% 50%/50%;
+  color: white;
+  padding: 0.5rem;
+  padding-inline: 2rem;
+  display: grid;
+  align-content: center;
+  max-width: 480px;
+}
+
+.gallery__text1 {
+  text-decoration: underline;
+}
+
+.wrapper {
+  width: 95%;
+  margin: auto;
+  position: relative;
+  min-width: 330px;
+  max-width: 1000px;
+  font-family: "Nunito", sans-serif;
+}
+
+.section2 {
+  grid-template-rows: 0.5fr 1fr;
+  position: relative;
+}
+
+body {
+  background-color: #fde5e5;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.sizeRows {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=main.css.map */

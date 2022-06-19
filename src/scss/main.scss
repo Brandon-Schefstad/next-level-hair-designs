@@ -1,0 +1,31 @@
+@use './utils' as u;
+@use './header';
+@use './pricing';
+@use './reset';
+@use './policies';
+@use './mq';
+@use './booking';
+@use './gallery';
+
+.wrapper {
+	width: 95%;
+	margin: auto;
+	position: relative;
+	min-width: 330px;
+	max-width: 1000px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.section2 {
+	grid-template-rows: 0.5fr 1fr;
+	position: relative;
+}
+body {
+	background-color: #fde5e5;
+	margin-bottom: 5rem;
+	margin-top: 2rem;
+}
+
+.sizeRows {
+	background-color: blue;
+}

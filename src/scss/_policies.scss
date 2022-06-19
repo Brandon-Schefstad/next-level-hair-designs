@@ -1,0 +1,28 @@
+@use './utils';
+.policies__wrapper {
+	background-color: utils.$light-bg;
+	display: grid;
+	right: 0px;
+	padding: 0.5rem;
+	border: 2px solid (utils.$dark-bg);
+	grid-template-rows: -0.8fr 1fr;
+	padding-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+h1.policies__title {
+	color: utils.$light-purple;
+
+	border: none;
+	font-family: Nunito, sans-serif;
+	grid-column: 1;
+	margin: auto;
+	font-size: 2rem;
+}
+.policies__list {
+	font-family: nunito, sans-serif;
+	font-size: 1.1rem;
+}
+.policies__text--emphasized {
+	color: blue;
+	font-weight: 700;
+}

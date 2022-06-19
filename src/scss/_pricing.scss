@@ -1,0 +1,142 @@
+@use './utils';
+
+.pricing-wrapper {
+  font-family: nunito;
+
+  color: utils.$light-purple;
+  position: relative;
+  background-color: white;
+  border: 2px solid utils.$dark-bg;
+  display: grid;
+  grid-template-rows: 43% 50%;
+  gap: 0rem;
+  height: 593.5px;
+}
+.pricing {
+  width: 100%;
+  text-align: center;
+}
+.pricing__title,
+h1.policies__title {
+  font-size: 2.2rem;
+  padding-inline: 0.4rem;
+  text-decoration: underline;
+  grid-column: 1 / span 5;
+  font-weight: 701;
+}
+.pricing__straightback {
+  font-size: 2rem;
+}
+.pricing__list {
+  list-style: none;
+  padding-inline: 0.5rem;
+  font-size: 0.8rem;
+  flex-direction: column;
+  grid-column: 1 / span 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-inline: 2rem;
+}
+.price {
+  text-align: center;
+  margin-top: 0%;
+}
+.pricing__listitems {
+}
+.style {
+  text-align: center;
+}
+.decoration {
+  position: relative;
+  &::after {
+    content: ' ';
+    background-color: utils.$light-accent;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+  }
+}
+.pricing__listitems__container {
+  grid-template-columns: 1fr 1fr 1fr;
+  letter-spacing: 0.25ch;
+}
+.menuWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding-inline: 1rem;
+}
+.pricing__change-price {
+  color: white;
+  font-size: 2rem;
+  border-radius: 5rem;
+  background-color: utils.$dark-bg;
+  &:hover {
+    background-color: hsl(244, 28%, 75%);
+    color: utils.$dark-bg;
+  }
+}
+img.preview {
+  margin: auto;
+  margin-top: 1rem;
+  min-width: 50px;
+  border-radius: 30rem;
+  box-shadow: 0px -4px 4px utils.$light-accent-opaque;
+  border: 2px solid utils.$light-accent;
+  margin-bottom: 1rem;
+  max-height: 240px;
+}
+.preview__wrapper {
+  max-height: 275px;
+}
+.sizeMarker {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.style {
+}
+
+// Pricing Test
+
+.pricing__grid {
+  background-color: white;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  padding: 1rem;
+  height: 215px;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
+  grid-column: 1 / span 5;
+}
+.default__pricing {
+  color: utils.$light-purple;
+}
+.pricing__grid__item {
+  border: 2px solid blACK;
+  height: 3.7rem;
+  text-align: center;
+  margin-block: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15rem;
+}
+.dark-bg {
+  background-color: utils.$light-purple;
+  color: white;
+}
+.number {
+}
+.hidden {
+  visibility: hidden;
+}
+.pricing__change-price {
+}
+.pricing__caveat {
+  grid-column: 1 / span 4;
+  color: black;
+}

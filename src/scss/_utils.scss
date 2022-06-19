@@ -1,0 +1,17 @@
+$dark-bg: hsl(244, 28%, 23%);
+$dark-bg-opaque: rgba(44, 42, 74, 0.75);
+$light-accent: hsl(11, 93%, 55%);
+$light-accent-opaque: hsla(11, 93%, 55%, 0.7);
+$light-purple: #5243ad;
+$light-bg: hsl(273, 34%, 83%);
+$lighter-bg: #fde5e5;
+$white: #ffffff;
+$std-border: 6.71px;
+.grid {
+	display: grid;
+	gap: 1rem;
+}
+.flex {
+	display: flex;
+	// gap: 1rem;
+}

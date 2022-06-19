@@ -1,0 +1,15 @@
+[build]
+  command = "CI= npm run build"
+  publish="/build"
+
+  [[redirects]]
+  from = "/*"
+  to = "/booking"
+  status = 200
+
+  [[plugins]]
+  package = "netlify-plugin-cloudinary"
+
+  [plugins.inputs]
+  cloudName = "nlhd"
+  deliveryType = "upload"

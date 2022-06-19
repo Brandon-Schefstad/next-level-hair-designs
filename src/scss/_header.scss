@@ -1,0 +1,62 @@
+@use './utils';
+.header__wrapper {
+	background-color: utils.$dark-bg;
+	padding: 4rem;
+	justify-items: center;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 1rem;
+	text-align: center;
+	position: relative;
+}
+
+.logo {
+	box-shadow: 0px 0px 4px utils.$lighter-bg;
+	// border-radius: utils.$std-border;
+	z-index: 0;
+	&:hover {
+		box-shadow: 0px 0px 8px utils.$light-accent;
+	}
+	position: absolute;
+	top: 75px;
+	width: 13rem;
+}
+.title {
+	// color: #fff;
+	font-size: 2.5rem;
+	text-align: left;
+	max-width: 200px;
+	margin-top: 6rem;
+}
+.header__text__wrapper {
+	flex-direction: column;
+	text-align: right;
+	font-size: 1.2rem;
+}
+.header__text {
+	// color: #fff;
+}
+.header__wrapper > div {
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.header__socials {
+}
+.header__cta {
+	background-color: utils.$light-accent;
+	font-weight: 700;
+	border: 3px solid utils.$light-accent;
+	// border-radius: utils.$std-border;
+	color: #fff;
+	margin: auto;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	&:hover {
+		background-color: hsla(11, 93%, 25%);
+		border: 3px solid hsla(11, 93%, 25%);
+	}
+}
+.header__image {
+	opacity: 70%;
+	width: 90%;
+	justify-self: center;
+}
