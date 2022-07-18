@@ -26,36 +26,44 @@ const Header = (props) => {
 			);
 		}
 	}
-	return (
-		<div>
-			{/* Header Information: Title, Contact, CTA */}
-			<section className="header__wrapper grid">
-				<div>
-					<section className="header__info__wrapper grid">
-						<h1 className="title">Kenia Thompson</h1>
-						<div className="header__text__wrapper flex">
-							<h4 className="header__text">Tampa,FL</h4>
-							<br></br>
-							<h4 className="header__text">(813)-680-6374</h4>
-						</div>
-						<img src="" alt="" className="header__socials" />
-						{handleButton()}
-					</section>
-				</div>
-				{/* Imaged Section with Logo and Default Picture */}
-				<section className="images__wrapper grid">
-					<div className="logo__container">
-						<img src={image} alt="screenreader" className="logo" />
+	if (props.route === '/') {
+		return handleButton();
+	} else {
+		return (
+			<div>
+				{/* Header Information: Title, Contact, CTA */}
+				<section className="header__wrapper grid">
+					<div>
+						<section className="header__info__wrapper grid">
+							<h1 className="title">Kenia Thompson</h1>
+							<div className="header__text__wrapper flex">
+								<h4 className="header__text">Tampa,FL</h4>
+								<br></br>
+								<h4 className="header__text">(813)-680-6374</h4>
+							</div>
+							<img src="" alt="" className="header__socials" />
+							{handleButton()}
+						</section>
 					</div>
-					<img
-						src={headerimage}
-						alt="Image of young girl with Medium Size Feedins"
-						className="header__image"
-					/>
+					{/* Imaged Section with Logo and Default Picture */}
+					<section className="images__wrapper grid">
+						<div className="logo__container">
+							<img
+								src={image}
+								alt="screenreader"
+								className="logo"
+							/>
+						</div>
+						<img
+							src={headerimage}
+							alt="Image of young girl with Medium Size Feedins"
+							className="header__image"
+						/>
+					</section>
 				</section>
-			</section>
-		</div>
-	);
+			</div>
+		);
+	}
 };
 
 export default Header;
