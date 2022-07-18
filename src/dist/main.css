@@ -9,7 +9,9 @@
 
 .header__wrapper {
   background-color: hsl(244deg, 28%, 23%);
-  padding: 4rem;
+  padding-top: 4rem;
+  padding-inline: 2rem;
+  padding-bottom: 2rem;
   justify-items: center;
   font-family: "Nunito", sans-serif;
   margin-bottom: 1rem;
@@ -52,7 +54,7 @@
   border: 3px solid hsl(11deg, 93%, 55%);
   color: #fff;
   margin: auto;
-  padding: 0.5rem;
+  padding: 1.5rem;
   font-size: 1.2rem;
 }
 .header__cta:hover {
@@ -62,7 +64,7 @@
 
 .header__image {
   opacity: 70%;
-  width: 90%;
+  width: 100%;
   justify-self: center;
 }
 
@@ -87,7 +89,6 @@
 h1.policies__title {
   font-size: 2.2rem;
   padding-inline: 0.4rem;
-  text-decoration: underline;
   grid-column: 1/span 5;
   font-weight: 701;
 }
@@ -289,18 +290,23 @@ select {
   }
 }
 .policies__wrapper {
-  background-color: hsl(273deg, 34%, 83%);
+  background-color: hsl(244deg, 28%, 23%);
+  color: white;
   display: grid;
   right: 0px;
   padding: 0.5rem;
   border: 2px solid hsl(244deg, 28%, 23%);
   grid-template-rows: -0.8fr 1fr;
   padding-top: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 h1.policies__title {
-  color: #5243ad;
+  color: white;
+  background-color: hsl(11deg, 93%, 55%);
+  padding-inline: 2rem;
+  max-width: 480px;
+  margin-top: 1rem;
+  border-radius: 50% 5% 50% 5%/50% 50% 50% 50%;
   border: none;
   font-family: Nunito, sans-serif;
   grid-column: 1;
@@ -314,8 +320,16 @@ h1.policies__title {
 }
 
 .policies__text--emphasized {
-  color: blue;
+  color: hsl(11deg, 93%, 55%);
   font-weight: 700;
+}
+
+.policies__thanks {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -328,7 +342,7 @@ h1.policies__title {
 
   .header__wrapper {
     grid-template-columns: 1fr 1fr;
-    padding-left: 8rem;
+    padding-left: 4rem;
     padding-top: 3rem;
     color: black;
   }
@@ -368,12 +382,13 @@ h1.policies__title {
   }
 
   .header__image {
-    width: 90%;
+    width: 100%;
     margin-top: 1rem;
   }
 
   .header__cta {
-    padding: 0.5rem;
+    font-size: 2rem;
+    padding: 1rem;
     margin-block: auto;
   }
 
@@ -420,6 +435,7 @@ h1.policies__title {
   gap: 2rem;
   border: 2px solid hsl(244deg, 28%, 23%);
   padding: 2rem;
+  padding-top: 1.5rem;
   background-color: hsl(244deg, 28%, 23%);
 }
 
@@ -505,7 +521,7 @@ h1.policies__title {
 }
 
 body {
-  background-color: #fde5e5;
+  background-color: hsla(0deg, 0%, 0%, 0.5);
   margin-bottom: 5rem;
   margin-top: 2rem;
 }

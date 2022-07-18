@@ -1,7 +1,9 @@
 @use './utils';
 .header__wrapper {
 	background-color: utils.$dark-bg;
-	padding: 4rem;
+	padding-top: 4rem;
+	padding-inline: 2rem;
+	padding-bottom: 2rem;
 	justify-items: center;
 	font-family: 'Nunito', sans-serif;
 	margin-bottom: 1rem;
@@ -48,7 +50,7 @@
 	// border-radius: utils.$std-border;
 	color: #fff;
 	margin: auto;
-	padding: 0.5rem;
+	padding: 1.5rem;
 	font-size: 1.2rem;
 	&:hover {
 		background-color: hsla(11, 93%, 25%);
@@ -57,6 +59,6 @@
 }
 .header__image {
 	opacity: 70%;
-	width: 90%;
+	width: 100%;
 	justify-self: center;
 }

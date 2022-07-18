@@ -1,17 +1,21 @@
 @use './utils';
 .policies__wrapper {
-	background-color: utils.$light-bg;
+	background-color: utils.$dark-bg;
+	color: white;
 	display: grid;
 	right: 0px;
 	padding: 0.5rem;
 	border: 2px solid (utils.$dark-bg);
 	grid-template-rows: -0.8fr 1fr;
 	padding-top: 1.5rem;
-	margin-bottom: 1rem;
 }
 h1.policies__title {
-	color: utils.$light-purple;
-
+	color: white;
+	background-color: utils.$light-accent;
+	padding-inline: 2rem;
+	max-width: 480px;
+	margin-top: 1rem;
+	border-radius: 50% 5% 50% 5% / 50% 50% 50% 50%;
 	border: none;
 	font-family: Nunito, sans-serif;
 	grid-column: 1;
@@ -23,6 +27,13 @@ h1.policies__title {
 	font-size: 1.1rem;
 }
 .policies__text--emphasized {
-	color: blue;
+	color: utils.$light-accent;
 	font-weight: 700;
+}
+.policies__thanks {
+	font-size: 1.5rem;
+	text-align: left;
+	margin: auto;
+	margin-top: 1rem;
+	padding: 0rem;
 }

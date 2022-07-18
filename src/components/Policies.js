@@ -3,9 +3,7 @@ import React from 'react';
 const Policies = () => {
 	return (
 		<section className="policies__wrapper">
-			<h1 className="policies__title pricing__title pricing ">
-				Policies
-			</h1>
+			<h1 className="gallery__title policies__title  ">Policies</h1>
 			<ol className="policies__list">
 				<h1>PLEASE READ</h1>
 				<li className="policies__listitems">
@@ -53,7 +51,9 @@ const Policies = () => {
 						rendered.
 					</span>
 				</li>
-				<h1>Thanks for booking the Next Level Way!</h1>
+				<h1 className="policies__thanks">
+					Thanks for booking the Next Level Way!
+				</h1>
 			</ol>
 		</section>
 	);
