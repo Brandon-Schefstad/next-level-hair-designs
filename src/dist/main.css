@@ -406,6 +406,10 @@ h1.policies__intro {
     margin-block: auto;
   }
 
+  .gallery__wrapper {
+    padding: 0rem;
+  }
+
   img.preview {
     width: 50%;
   }
@@ -450,7 +454,7 @@ h1.policies__intro {
   gap: 2rem;
   border: 2px solid hsl(244deg, 28%, 23%);
   padding: 2rem;
-  padding-top: 0rem;
+  padding-top: 1.5rem;
   background-color: hsl(244deg, 28%, 23%);
 }
 
