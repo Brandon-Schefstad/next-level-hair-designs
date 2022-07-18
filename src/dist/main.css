@@ -45,7 +45,7 @@
 
 .header__wrapper > div {
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: hsl(273deg, 34%, 83%) !important;
 }
 
 .header__cta {
@@ -317,7 +317,7 @@ h1.policies__title {
 .policies__list {
   font-family: nunito, sans-serif;
   font-size: 1.1rem;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: hsl(273deg, 34%, 83%);
   padding-top: 1rem;
   padding-right: 1rem;
   max-width: 60ch;
@@ -449,7 +449,7 @@ h1.policies__intro {
   gap: 2rem;
   border: 2px solid hsl(244deg, 28%, 23%);
   padding: 2rem;
-  padding-top: 1.5rem;
+  padding-top: 0rem;
   background-color: hsl(244deg, 28%, 23%);
 }
 
@@ -535,7 +535,7 @@ h1.policies__intro {
 }
 
 body {
-  background-color: hsla(0deg, 0%, 0%, 0.5);
+  background-color: #fde5e5;
   margin-bottom: 5rem;
   margin-top: 2rem;
 }
