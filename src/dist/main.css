@@ -9,7 +9,7 @@
 
 .header__wrapper {
   background-color: hsl(244deg, 28%, 23%);
-  padding-top: 4rem;
+  padding-top: 3rem;
   padding-inline: 2rem;
   padding-bottom: 2rem;
   justify-items: center;
@@ -44,7 +44,7 @@
 }
 
 .header__wrapper > div {
-  padding: 1rem;
+  padding: 2rem;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
@@ -66,6 +66,7 @@
   opacity: 70%;
   width: 100%;
   justify-self: center;
+  box-shadow: 0px 0px 15px white;
 }
 
 .pricing-wrapper {
@@ -291,7 +292,6 @@ select {
 }
 .policies__wrapper {
   background-color: hsl(244deg, 28%, 23%);
-  color: white;
   display: grid;
   right: 0px;
   padding: 0.5rem;
@@ -317,6 +317,12 @@ h1.policies__title {
 .policies__list {
   font-family: nunito, sans-serif;
   font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding-top: 1rem;
+  padding-right: 1rem;
+  max-width: 60ch;
+  margin-inline: auto;
+  color: hsl(244deg, 28%, 23%);
 }
 
 .policies__text--emphasized {
@@ -324,12 +330,20 @@ h1.policies__title {
   font-weight: 700;
 }
 
-.policies__thanks {
+.policies__thanks,
+.policies__intro {
   font-size: 1.5rem;
   text-align: left;
   margin: auto;
   margin-top: 1rem;
   padding: 0rem;
+  text-align: left;
+  text-decoration: underline;
+}
+
+h1.policies__intro {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 800px) {

@@ -5,7 +5,7 @@ const Policies = () => {
 		<section className="policies__wrapper">
 			<h1 className="gallery__title policies__title  ">Policies</h1>
 			<ol className="policies__list">
-				<h1>PLEASE READ</h1>
+				<h1 className="policies__intro">PLEASE READ</h1>
 				<li className="policies__listitems">
 					<span>
 						A $20 non-refundable deposit is required at the time of

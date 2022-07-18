@@ -1,7 +1,7 @@
 @use './utils';
 .policies__wrapper {
 	background-color: utils.$dark-bg;
-	color: white;
+	// color: white;
 	display: grid;
 	right: 0px;
 	padding: 0.5rem;
@@ -25,15 +25,28 @@ h1.policies__title {
 .policies__list {
 	font-family: nunito, sans-serif;
 	font-size: 1.1rem;
+	background-color: utils.$lightest-bg;
+	padding-top: 1rem;
+	padding-right: 1rem;
+	max-width: 60ch;
+	margin-inline: auto;
+	color: utils.$dark-bg;
 }
 .policies__text--emphasized {
 	color: utils.$light-accent;
 	font-weight: 700;
 }
-.policies__thanks {
+.policies__thanks,
+.policies__intro {
 	font-size: 1.5rem;
 	text-align: left;
 	margin: auto;
 	margin-top: 1rem;
 	padding: 0rem;
+	text-align: left;
+	text-decoration: underline;
+}
+h1.policies__intro {
+	margin-top: 0rem;
+	margin-bottom: 1rem;
 }

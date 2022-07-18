@@ -1,7 +1,7 @@
 @use './utils';
 .header__wrapper {
 	background-color: utils.$dark-bg;
-	padding-top: 4rem;
+	padding-top: 3rem;
 	padding-inline: 2rem;
 	padding-bottom: 2rem;
 	justify-items: center;
@@ -38,8 +38,8 @@
 	// color: #fff;
 }
 .header__wrapper > div {
-	padding: 1rem;
-	background-color: rgba(255, 255, 255, 0.7);
+	padding: 2rem;
+	background-color: utils.$lightest-bg;
 }
 .header__socials {
 }
@@ -61,4 +61,5 @@
 	opacity: 70%;
 	width: 100%;
 	justify-self: center;
+	box-shadow: 0px 0px 15px white;
 }
