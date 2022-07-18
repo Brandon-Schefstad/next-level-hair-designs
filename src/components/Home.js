@@ -12,12 +12,11 @@ function Home() {
 		<div className="wrapper">
 			<Header button="Book an Appointment" route="/booking" />
 			<section className="section2 grid">
-				<Pricing />
+				{/* <Pricing /> */}
+				<Gallery />
 				<Policies />
 			</section>
-			<section className="section3 grid">
-				<Gallery />
-			</section>
+			<section className="section3 grid">{/* <Gallery /> */}</section>
 		</div>
 	);
 }

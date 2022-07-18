@@ -9,16 +9,16 @@ import Iframe from './components/Iframe';
 // import PricingTest from './components/PricingTest';
 
 function App() {
-  return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/booking" element={<Booking />} />
-        </Routes>
-      </Router>
-    </div>
-  );
+	return (
+		<div>
+			<Router>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/booking" element={<Booking />} />
+				</Routes>
+			</Router>
+		</div>
+	);
 }
 
 export default App;
