@@ -6,9 +6,12 @@ import Policies from './Policies';
 const Booking = () => {
 	return (
 		<div className="wrapper">
-			<Header button="Return Home" route="/" />
+			<h1 className="booking__cta">
+				Please review our policies and book below!
+			</h1>
 			<Policies />
 			<Iframe />
+			<Header button="Return Home" route="/" />
 		</div>
 	);
 };

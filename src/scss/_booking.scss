@@ -24,3 +24,10 @@
 		border: 3px solid utils.$light-accent;
 	}
 }
+.booking__cta {
+	text-align: center;
+	text-decoration: underline;
+	color: utils.$dark-bg;
+	background-color: white;
+	margin-bottom: 1rem;
+}
