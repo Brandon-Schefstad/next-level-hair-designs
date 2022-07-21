@@ -303,8 +303,7 @@ select {
   border: 2px solid hsl(244deg, 28%, 23%);
   grid-template-rows: -0.8fr 1fr;
   padding-top: 1.5rem;
-  max-width: 475px;
-  min-width: 400px;
+  max-width: 685px;
   margin: auto;
 }
 
