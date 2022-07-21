@@ -39,7 +39,9 @@
 }
 .header__wrapper > div {
 	padding: 2rem;
+	width: 60%;
 	background-color: utils.$light-bg !important;
+	background-image: url(https://images.pexels.com/photos/6387869/pexels-photo-6387869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .header__socials {
 }
@@ -62,4 +64,7 @@
 	width: 100%;
 	justify-self: center;
 	box-shadow: 0px 0px 15px white;
+}
+.header__info__wrapper {
+	padding: 0rem;
 }

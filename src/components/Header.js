@@ -35,6 +35,7 @@ const Header = (props) => {
 				<section className="header__wrapper grid">
 					<div>
 						<section className="header__info__wrapper grid">
+							{/* <section className="header__margin"> */}
 							<h1 className="title">Kenia Thompson</h1>
 							<div className="header__text__wrapper flex">
 								<h4 className="header__text">Tampa,FL</h4>
@@ -43,6 +44,7 @@ const Header = (props) => {
 							</div>
 							<img src="" alt="" className="header__socials" />
 							{handleButton()}
+							{/* </section> */}
 						</section>
 					</div>
 					{/* Imaged Section with Logo and Default Picture */}
