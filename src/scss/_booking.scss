@@ -29,11 +29,12 @@
 	text-decoration: underline;
 	color: utils.$dark-bg;
 	background-color: white;
+	border: 3px solid utils.$light-accent;
 	margin-bottom: 1rem;
 }
 .booking__button {
 	color: red;
-	background-color: utils.$dark-bg;
+	// background-color: utils.$dark-bg;
 	padding-block: 0.5rem;
 	margin: auto;
 	width: 30%;

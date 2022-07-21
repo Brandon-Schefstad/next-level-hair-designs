@@ -7,6 +7,9 @@
 @use './booking';
 @use './gallery';
 
+* {
+	max-width: 100%;
+}
 .wrapper {
 	width: 95%;
 	margin: auto;

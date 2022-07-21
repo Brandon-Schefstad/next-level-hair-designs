@@ -2,7 +2,7 @@
 .header__wrapper {
 	background-color: utils.$dark-bg;
 	padding-top: 3rem;
-	padding-inline: 2rem;
+
 	padding-bottom: 2rem;
 	justify-items: center;
 	font-family: 'Nunito', sans-serif;
@@ -39,7 +39,7 @@
 }
 .header__wrapper > div {
 	padding: 2rem;
-	width: 60%;
+	width: 80%;
 	background-color: utils.$light-bg !important;
 	background-image: url(https://images.pexels.com/photos/6387869/pexels-photo-6387869.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
