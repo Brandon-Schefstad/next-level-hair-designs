@@ -298,6 +298,8 @@ select {
   border: 2px solid hsl(244deg, 28%, 23%);
   grid-template-rows: -0.8fr 1fr;
   padding-top: 1.5rem;
+  max-width: 475px;
+  margin: auto;
 }
 
 h1.policies__title {
@@ -321,8 +323,9 @@ h1.policies__title {
   padding-top: 1rem;
   padding-right: 1rem;
   max-width: 60ch;
-  margin-inline: auto;
   color: hsl(244deg, 28%, 23%);
+  margin: auto;
+  margin: 1rem;
 }
 
 .policies__text--emphasized {
@@ -476,21 +479,21 @@ h1.policies__intro {
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   border: 2px solid hsl(244deg, 28%, 23%);
-  padding: 2rem;
-  padding-top: 1.5rem;
+  padding: 1.5rem;
+  padding-top: 1rem;
   background-color: hsl(244deg, 28%, 23%);
 }
 
 .gallery__text {
   color: white;
   position: absolute;
-  font-size: 0.7rem;
+  font-size: 1rem;
   bottom: 40px;
   margin: auto;
   display: block;
-  background-color: hsla(0deg, 0%, 0%, 0.5);
+  background-color: hsla(0deg, 0%, 0%, 0.8);
   z-index: 2;
-  padding: 0.5rem;
+  padding: 0.8rem;
   letter-spacing: 0.25ch;
   text-align: left;
 }
@@ -509,14 +512,9 @@ h1.policies__intro {
   text-align: center;
   margin: auto;
   height: 300px;
-  border: 3px solid white;
   grid-column: 1/span 4;
   height: 100%;
   position: relative;
-}
-
-.gallery__image {
-  height: 300px;
 }
 
 .prev {

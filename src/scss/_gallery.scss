@@ -6,20 +6,20 @@
 	grid-template-columns: repeat(4, 1fr);
 	gap: 2rem;
 	border: 2px solid utils.$dark-bg;
-	padding: 2rem;
-	padding-top: 1.5rem;
+	padding: 1.5rem;
+	padding-top: 1rem;
 	background-color: utils.$dark-bg;
 }
 .gallery__text {
 	color: white;
 	position: absolute;
-	font-size: 0.7rem;
+	font-size: 1rem;
 	bottom: 40px;
 	margin: auto;
 	display: block;
-	background-color: hsla(0, 0, 0, 0.5);
+	background-color: hsla(0, 0, 0, 0.8);
 	z-index: 2;
-	padding: 0.5rem;
+	padding: 0.8rem;
 	letter-spacing: 0.25ch;
 	text-align: left;
 	&::before {
@@ -37,14 +37,14 @@
 	text-align: center;
 	margin: auto;
 	height: 300px;
-	border: 3px solid white;
+
 	grid-column: 1 / span 4;
 	height: 100%;
 
 	position: relative;
 }
 .gallery__image {
-	height: 300px;
+	// height: 300px;
 }
 .prev {
 	grid-row: 3;
