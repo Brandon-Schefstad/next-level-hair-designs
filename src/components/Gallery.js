@@ -164,7 +164,7 @@ const Gallery = () => {
 				className="prev gallery__button"
 				onClick={() => setIndex(index - 1)}
 			>
-				Previous
+				Prev
 			</button>
 			<div className="image__wrapper">
 				<img
