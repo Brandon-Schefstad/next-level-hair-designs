@@ -10,7 +10,7 @@ Base design is finished, still waiting on editing response from the client for r
 
 #### Example:
 
-https://brandon-schefstad.netlify.app/images1/NLHD-preview.gif
+[] https://brandon-schefstad.netlify.app/images1/NLHD-preview.gif
 
 # [Live Site](https://next-level-hair-designs.netlify.app/)
 
