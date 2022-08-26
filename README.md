@@ -1,6 +1,6 @@
 # Next Level Hair Designs
 
-Freelance client requested a website for her personal business. She is a hairstylist and needed the website to allow for an image gallery, pricing menu, and a separate page for booking. Booking is handled through a third-party platform. Site is created from a mobile-first approach since the client does not have access to a computer currently.
+Freelance client requested a website for her personal business. She is a hairstylist and needed the website to allow for an image gallery, pricing menu, and a separate page for booking. It also needed to be built for minimal maintenance and to run completely from a movile device. Booking is handled through a third-party platform. Site is created from a mobile-first approach since the client does not have access to a computer currently.
 
 ## Project Status
 
