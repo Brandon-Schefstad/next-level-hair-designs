@@ -10,7 +10,7 @@ Base design is finished, still waiting on editing response from the client for r
 
 #### Example:
 
-![Landing Page for next-level-hair-designs] https://brandon-schefstad.netlify.app/images1/NLHD-preview.gif
+![Landing Page for next-level-hair-designs] (./images/NLHD-preview)
 
 # [Live Site](https://next-level-hair-designs.netlify.app/)
 
@@ -18,9 +18,9 @@ Please click the link above to visit the live website!
 
 ## Reflection
 
-- What did you set out to build?
-  This is an ongoing freelance and pro-bono project where I aim to build a responsive, stable website that requires minimal maintenance or upkeep. The client does not have access to a computer currently so I had to take that into consideration during wireframing and conceptualization . Moreover her styles require different lengths of time so the booking software needed to have a variety of appointment types.
+-   What did you set out to build?
+    This is an ongoing freelance and pro-bono project where I aim to build a responsive, stable website that requires minimal maintenance or upkeep. The client does not have access to a computer currently so I had to take that into consideration during wireframing and conceptualization . Moreover her styles require different lengths of time so the booking software needed to have a variety of appointment types.
 
-  This was my first full website using ReactJS and my first time using React-router. It really taught me how to use the UseState hook and how to abstract out similar elements into components with different properties.
+    This was my first full website using ReactJS and my first time using React-router. It really taught me how to use the UseState hook and how to abstract out similar elements into components with different properties.
 
-  The technologies implemented in this project are ReactJS(via create-react-app), React-Router 4.0, SASS for styling, as well as integration with a third party booking system. Images are stored within the app itself but could be extracted out to a hosting site.
+    The technologies implemented in this project are ReactJS(via create-react-app), React-Router 4.0, SASS for styling, as well as integration with a third party booking system. Images are stored within the app itself but could be extracted out to a hosting site.
