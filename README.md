@@ -10,9 +10,7 @@ Base design is finished, still waiting on editing response from the client for r
 
 #### Example:
 
-[ScreenShot]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+https://brandon-schefstad.netlify.app/images1/NLHD-preview.gif
 
 # [Live Site](https://next-level-hair-designs.netlify.app/)
 
@@ -25,4 +23,4 @@ Please click the link above to visit the live website!
 
   This was my first full website using ReactJS and my first time using React-router. It really taught me how to use the UseState hook and how to abstract out similar elements into components with different properties.
 
-  The technologies implemented in this project are ReactJS(via create-reace-app), React-Router 4.0, SASS for styling, as well as integration with a third party booking system. Images are stored within the app itself bu could be extracted out to a hosting site.
+  The technologies implemented in this project are ReactJS(via create-react-app), React-Router 4.0, SASS for styling, as well as integration with a third party booking system. Images are stored within the app itself but could be extracted out to a hosting site.
