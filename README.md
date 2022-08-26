@@ -10,7 +10,7 @@ Base design is finished, still waiting on editing response from the client for r
 
 #### Example:
 
-![Landing Page for next-level-hair-designs] [(/images/NLHD-preview)](https://github.com/Brandon-Schefstad/next-level-hair-designs/blob/main/images/NLHD-preview.gif)
+![(/images/NLHD-preview)](https://github.com/Brandon-Schefstad/next-level-hair-designs/blob/main/images/NLHD-preview.gif)
 
 # [Live Site](https://next-level-hair-designs.netlify.app/)
 
